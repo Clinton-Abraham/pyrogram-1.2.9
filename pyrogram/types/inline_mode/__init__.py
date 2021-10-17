@@ -24,8 +24,10 @@ from .inline_query_result_article import InlineQueryResultArticle
 from .inline_query_result_photo import InlineQueryResultPhoto
 from .inline_query_result_video import InlineQueryResultVideo
 from .inline_query_result_audio import InlineQueryResultAudio
+from .inline_query_result_cached_photo import InlineQueryResultCachedPhoto
+from .inline_query_result_cached_document import InlineQueryResultCachedDocument
 
 __all__ = [
     "InlineQuery", "InlineQueryResult", "InlineQueryResultArticle", "InlineQueryResultPhoto",
     "InlineQueryResultAnimation", "InlineQueryResultAudio", "InlineQueryResultVideo", "ChosenInlineResult"
-]
+     "InlineQueryResultCachedPhoto", "InlineQueryResultCachedDocument"]
